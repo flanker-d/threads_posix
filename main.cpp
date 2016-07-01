@@ -2,6 +2,7 @@
 #include <pthread.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <stdio.h>
 using namespace std;
 
 void *thread_func(void *arg)
